@@ -4,13 +4,16 @@ int n = int.Parse(Console.ReadLine());
                                                                               
 int CounterPozitiveNumber(int n1) 
 { 
-    int[] array = new int[n1];
+    //int[] array = new int[n1];
+    int temp = 0;
     int count = 0;
     for (int i = 0; i < n1; i++)
     {
         Console.WriteLine("введите число");
-        array[i] = int.Parse(Console.ReadLine());
-        if(array[i] > 0)
+        //array[i] = int.Parse(Console.ReadLine());
+        //if(array[i] > 0)
+        temp = int.Parse(Console.ReadLine());
+        if(temp > 0)
         {
             count += 1;
         }
