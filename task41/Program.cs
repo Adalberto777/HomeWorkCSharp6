@@ -16,6 +16,3 @@ int CounterPozitiveNumber(string[] st1)
 }
 
 Console.WriteLine($"чисел > 0: {CounterPozitiveNumber(st)}");
-
-
-//int.Parse(st[0])
